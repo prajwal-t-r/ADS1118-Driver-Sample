@@ -91,6 +91,8 @@ int main(void)
 
     rtiEnableNotification(rtiNOTIFICATION_COMPARE0);
 
+
+    // DMA Configuration
     /*
     i2cEnableNotification(i2cREG1, I2C_RX_INT);
 
